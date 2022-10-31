@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+html{
+    font-size: 1.6rem;
+}
+.container{
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+/********formulario*/
+.formulario{
+    /*background-color: rgb(223, 223, 223);*/
+    width: 30rem;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+.cedula_input{
+    margin-bottom: 2rem;
+}
+
+.cedula_input, .contraseña_input{
+    width: 20rem;
+}
+input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    padding: 0 0 1rem 0;
+    outline: 0;
+}
+input::placeholder{
+    color: rgb(179, 177, 177);
+}
+
+.btn{
+    width: 100%;
+    margin-top: 1rem;
+    background: rgb(57, 162, 219);
+    color: white;
+    padding: 0.5rem;
+    border: rgb(57, 162, 219);
+}
+.btn:hover{
+    background: white;
+    border: 1px solid rgb(57, 162, 219);
+    color: rgb(57, 162, 219);
+    cursor: pointer;;
+}
+
+/*********administradores***************/
+.title{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: rgb(179, 177, 177);
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
